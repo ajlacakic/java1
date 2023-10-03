@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class ajla{
+    public static void main(String[] args){
+        Scanner reader=new Scanner(System.in);
+        System.out.println("enter name ");
+        String name=reader.nextLine();
+        System.out.println("enter age");
+        int god=Integer.parseInt(reader.nextLine());
+        System.out.println("hi"+name+god);
+    }
+}
