@@ -1,0 +1,70 @@
+lab 1.
+  
+
+1.
+import java.util.Scanner;
+public class druga {
+    public static void main(String[] args){
+        System.out.println("ajla");
+    }
+}
+
+2.
+import java.util.Scanner;
+public class druga {
+    public static void main(String[] args){
+        System.out.println("hello world!");
+        System.out.println("(and all the people of the world)");
+    }
+}
+
+3.
+import java.util.Scanner;
+public class druga {
+    public static void main(String[] args){
+        int n=365*24*60*60;
+        System.out.println("there are "+n+" seconds in a year");
+    }
+}
+
+
+4.import java.util.Scanner;
+public class druga {
+    public static void main(String[] args){
+        Scanner reader=new Scanner(System.in);
+        int a=Integer.parseInt(reader.nextLine());
+        int b=Integer.parseInt(reader.nextLine());
+        System.out.println(a+b);
+    }
+}
+
+5.
+import java.util.Scanner;
+public class druga {
+    public static void main(String[] args){
+        Scanner reader=new Scanner(System.in);
+        System.out.println("enter number");
+        int n=Integer.parseInt(reader.nextLine());
+        if(n>0){System.out.println("number is larger than 0");}
+
+        else{System.out.println("number is smaller than 0");}}
+}
+
+6.
+
+import java.util.Scanner;
+public class druga {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("enter numbers");
+        int n = Integer.parseInt(reader.nextLine());
+        int m = Integer.parseInt(reader.nextLine());
+        if (n > m) {
+            System.out.println(n + " is bigger");
+        } else if (m > n) {
+            System.out.println(m + " is bigger");
+        } else {
+            System.out.println("the numbers are equal");
+        }
+    }
+}
